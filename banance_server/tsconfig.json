@@ -1,0 +1,28 @@
+/* {
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true, 
+    "strict": true,
+  }
+}
+ */
+ {
+  "compilerOptions": {
+     "lib": [
+        "es6"
+     ],
+     "target": "es6",
+     "module": "commonjs",
+     "moduleResolution": "node",
+     "outDir": "dist",
+     "resolveJsonModule": true,
+     "emitDecoratorMetadata": true,
+     "esModuleInterop": true,
+     "experimentalDecorators": true,
+     "sourceMap": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
